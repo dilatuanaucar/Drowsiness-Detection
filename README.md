@@ -16,7 +16,11 @@ Step 5 – Calculate score to check whether the person is drowsy.
 The model we used is built with Keras using Convolutional Neural Networks (CNN). A convolutional neural network is a special type of deep neural network which performs extremely well for image classification purposes. A CNN basically consists of an input layer, an output layer and a hidden layer which can have multiple layers. A convolution operation is performed on these layers using a filter that performs 2D matrix multiplication on the layer and filter.
 
 The “haar cascade files” folder consists of the xml files that are needed to detect objects from the image. In our case, we are detecting the face and eyes of the person.
+
 The models folder contains our model file “cnnCat2.h5” which was trained on convolutional neural networks.
+
 We have an audio clip “alarm.wav” which is played when the person is feeling drowsy.
+
 “Model.py” file contains the program through which we built our classification model by training on our dataset. You could see the implementation of convolutional neural network in this file.
+
 “Drowsiness detection.py” is the main file of our project. To start the detection procedure, we have to run this file.
